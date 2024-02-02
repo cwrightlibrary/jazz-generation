@@ -97,9 +97,9 @@ def train_network():
     
     model = create_network(network_in, n_vocab)
     print("Model created")
-    # print("Training in progress")
-    # train(model, network_in, network_out, epochs)
-    # print("Training completed")
+    print("Training in progress")
+    train(model, network_in, network_out, epochs)
+    print("Training completed")
     
     return model
 
